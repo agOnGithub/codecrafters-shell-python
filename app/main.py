@@ -1,9 +1,7 @@
 import sys
 
-COMMANDS = {"exit", "echo", "type"}
-
 def main():
-    
+    COMMANDS = {"exit", "echo", "type"}
     while True:
         sys.stdout.write("$ ")
         sys.stdout.flush()
