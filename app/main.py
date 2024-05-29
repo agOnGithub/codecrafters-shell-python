@@ -9,7 +9,7 @@ def main():
         sys.stdout.flush()
 
         # Wait for user input
-        command = input().lower()
+        command = input()
         if command == "exit 0":
             sys.exit()
         elif command.split(" ")[0] == "echo":
