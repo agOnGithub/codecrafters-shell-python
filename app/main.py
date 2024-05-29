@@ -14,9 +14,7 @@ def main():
         sys.stdout.write("$ ")
         sys.stdout.flush()
 
-        # Wait for user input
         command = input()
-        #PATH="/usr/bin:/usr/local/bin" ./your_shell.sh
         if command == "exit 0":
             sys.exit()
         elif command.split(" ")[0] == "echo":
