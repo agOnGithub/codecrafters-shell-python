@@ -12,7 +12,7 @@ def main():
             sys.exit()
         elif command.split(" ")[0] == "echo":
             msg = command.split("echo")[0]
-            print(msg)
+            print(f"{msg}")
         else: 
             print(f"{command}: command not found")
 
