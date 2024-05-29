@@ -16,11 +16,12 @@ def main():
         elif command.split(" ")[0] == "type":
             cmd = command.split("type")[1]
             if cmd in Commands:
+                print(Commands[1])
                 print(f"{cmd} is a shell bulletin")
             else:
                 print(f"{cmd}: the command not found")
         else: 
-            print(f"{command}: q command not found")
+            print(f"{command}: command not found")
 
 
 if __name__ == "__main__":
