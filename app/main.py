@@ -18,7 +18,7 @@ def main():
             if cmd in Commands:
                 print(f"{cmd} is a shell bulletin")
             else:
-                print(f"{cmd}: the command not found")
+                print(f"{cmd}: command not found")
         else: 
             print(f"{command}: command not found")
 
