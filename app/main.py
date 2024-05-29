@@ -14,8 +14,8 @@ def main():
             msg = command.split("echo")[1]
             print(f"{msg}")
         elif command.split(" ")[0] == "type":
-            cmd = command.split("type")[1].strip()
-            if cmd in Commands:
+            #cmd = command.split("type")[1].strip()
+            if commmand.split(" ")[1] in Commands:
                 print(f"{cmd} is a shell builtin")
             else:
                 print(f"{cmd}: command not found")
