@@ -1,7 +1,7 @@
 import sys
 
 def main():
-    Commands = ["exit", "echo", "type"]
+    Commands = {" exit", " echo", " type"}
     while True:
         sys.stdout.write("$ ")
         sys.stdout.flush()
@@ -16,7 +16,6 @@ def main():
         elif command.split(" ")[0] == "type":
             cmd = command.split("type")[1]
             if cmd in Commands:
-                print(Commands[1])
                 print(f"{cmd} is a shell bulletin")
             else:
                 print(f"{cmd}: the command not found")
