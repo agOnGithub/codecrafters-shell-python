@@ -3,7 +3,7 @@ import os
 
 def does_it_exist(path, cmd):
     for folder in path.split(":"):
-        if os.path.isfile(f"{folder}/{bin_name}"):
+        if os.path.isfile(f"{folder}/{cmd}"):
             return folder
     return None
 
