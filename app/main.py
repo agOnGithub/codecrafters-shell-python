@@ -18,7 +18,7 @@ def main():
             if cmd in Commands:
                 print(f"{cmd} is a shell builtin")
             else:
-                print(f"{cmd}: command not found")
+                print(f"{cmd} not found")
         else: 
             print(f"{command}: command not found")
 
