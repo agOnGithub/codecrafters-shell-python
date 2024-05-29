@@ -18,9 +18,9 @@ def main():
             if cmd in Commands:
                 print(f"{cmd} is a shell bulletin")
             else:
-                print(f"{cmd}: command not found")
+                print(f"{cmd}: the command not found")
         else: 
-            print(f"{command}: command not found")
+            print(f"{command}: q command not found")
 
 
 if __name__ == "__main__":
