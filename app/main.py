@@ -16,7 +16,8 @@ def main():
             msg = command.split("echo")[1]
             print(f"{msg}")
         elif command.split(" ")[0] == "type":
-            if cmd = command.split("type")[1] in COMMANDS:
+            cmd = command.split("type")[1]
+            if cmd in COMMANDS:
                 print(f"{cmd} is a shell bulletin")
             else:
                 print(f"{cmd}: command not found")
