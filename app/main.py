@@ -16,7 +16,7 @@ def main():
         elif command.split(" ")[0] == "type":
             cmd = command.split("type")[1]
             if cmd in Commands:
-                print("{cmd} is a shell bulletin")
+                print(cmd + " is a shell bulletin")
             else:
                 print(f"{cmd}: command not found")
         else: 
